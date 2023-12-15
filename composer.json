@@ -1,0 +1,18 @@
+{
+    "name": "de-swebhosting-typo3-extension/symfony-debug",
+    "description": "Symfony debug",
+    "type": "typo3-cms-extension",
+    "autoload": {
+        "psr-4": {
+            "Swh\\SymfonyDebug\\": "Classes/"
+        }
+    },
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "symfony_debug"
+		}
+	},
+	"require": {
+		"ext-dom": "*"
+	}
+}
